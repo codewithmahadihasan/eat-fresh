@@ -2,8 +2,14 @@ body {
     font-family: 'Trispace', sans-serif;
 }
 
+p {
+    font-family: 'Gentium Book Plus', serif;
+    text-align: justify;
+}
+
 h1 {
-    font-size: 50px;
+    font-size: 60px;
+    color: gray;
 }
 
 span {
@@ -15,9 +21,63 @@ section {
 }
 
 .div-one {
+
+    flex: 1;
+    margin-left: 80px;
+    margin-top: 50px;
+    color: gray;
+    font-size: 30px;
+
+
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, #FF5733);
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-weight: 300;
+    color: aliceblue;
+
+}
+
+
+.div-two {
+    display: flex;
+
+}
+
+.div-two img {
+    width: 70%;
+    margin-left: 50px;
+}
+
+.start {
+    display: flex;
+    margin-bottom: 200px;
+}
+
+.div-three {
     width: 50%;
 }
 
-.div-two {
-    width: 100%;
+.img {
+    width: 50%;
+    margin: 50px 200px;
+    margin-bottom: 0;
+}
+
+.secound {
+
+    background-image: url(image/frame.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+
+.flex {
+    display: flex;
+    text-align: center;
+    margin: auto;
 }
